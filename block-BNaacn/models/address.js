@@ -10,7 +10,10 @@ const addressSchema = new Schema({
   city: {
     type: String,
     required: true
-  }
+  },
+  village: String,
+  pin: Number,
+  user: Schema.Types.ObjectId
 }, {timestamps: true});
 
 module.exports = mongoose.model("Address", addressSchema)
