@@ -4,11 +4,15 @@
   "description": "",
   "main": "",
   "scripts": {
-    "test": "jest --passWithNoTests"
+    "start": "nodemon ./app.js"
   },
   "author": "AltCampus",
   "license": "GNU GPL V3",
   "dependencies": {
-    "jest": "^26.0.1"
+    "express": "^4.17.1",
+    "jest": "^26.0.1",
+    "log-beautify": "^1.2.0",
+    "mongoose": "^5.10.18",
+    "nodemon": "^2.0.6"
   }
 }
