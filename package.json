@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "express": "^4.17.1",
+    "log-beautify": "^1.2.0",
+    "mongoose": "^5.11.1",
+    "nodemon": "^2.0.6"
+  }
+}
